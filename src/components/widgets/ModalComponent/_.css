@@ -1,0 +1,56 @@
+.modal-backdrop {
+  @apply animate-pulse duration-500 fixed top-0 bottom-0 right-0 left-0 bg-black z-20 opacity-50;
+}
+.modal-container {
+  @apply fixed top-56 lg:top-48 left-4 right-4 w-11/12 md:left-1/4 md:right-1/4 md:w-1/2 lg:left-1/4 lg:right-1/2 lg:w-1/2 bg-white overflow-auto z-30 rounded-lg; /*overflow-y-scroll*/
+}
+
+/* @screen md {
+  @apply left-1/4 right-1/4 w-1/2;
+}
+@screen lg {
+  @apply left-1/3 right-1/3 w-1/3;
+} */
+.modal-close {
+  @apply text-right p-4 absolute right-0 top-0 text-white font-extrabold;
+}
+.modal-header {
+  @apply w-full px-8 py-3 text-white font-bold flex justify-between items-center;
+}
+.modal-body {
+  @apply w-full p-4;
+}
+.modal-buttons-container {
+  @apply w-min flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-8 mx-auto p-4;
+}
+
+.modal-group-container{
+  @apply block p-4 space-y-4 text-black;
+}
+.modal-group-control-container{
+  @apply block sm:flex my-4 sm:space-x-4 space-y-4 sm:space-y-0;
+}
+.modal-group-item-container{
+  @apply grid grid-cols-2 w-full sm:w-1/2 place-self-stretch items-center;
+}
+
+.modal-group-input{
+  @apply px-3 py-1 border-2 border-gray-500 outline-none focus:border-gray-800 focus:shadow-lg text-sm;
+}
+
+.modal-group-input-md{
+  @apply px-4 py-3 border-2 w-full border-blue-800 outline-none focus:border-blue-700 focus:ring-1 focus:ring-sky-500 focus:shadow-sky-500;
+}
+
+.modal-children-content{
+  max-height: 65vh;
+  overflow-y: auto; 
+}
+
+@media (max-height:800px) {
+  .modal-children-content{
+    max-height: 40vh;
+    overflow-y: auto; 
+  }
+  
+}

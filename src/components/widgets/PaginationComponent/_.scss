@@ -1,0 +1,19 @@
+.pagination-page {
+  @apply bg-white border-gray-300 text-gray-500 hover:bg-gray-50 relative inline-flex items-center px-4 py-2 border text-sm font-medium;
+}
+.pagination.active {
+  @apply z-10 border-indigo-500 text-indigo-600 bg-indigo-100;
+}
+.css-10w330c-MuiButtonBase-root-MuiPaginationItem-root{
+  @apply text-gray-500 hover:text-gray-700 hover:bg-gray-200 !important;
+}
+.css-10w330c-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+  background-color: black !important;
+  color: white !important;
+  @apply hover:bg-black hover:text-white !important;
+}
+
+.pagination .css-18lqwt2.Mui-selected{
+  background-color: black !important;
+  color: white !important;
+}

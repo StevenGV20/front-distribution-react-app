@@ -1,0 +1,762 @@
+{
+  "ordenesDespacho": {
+    "totalPages": 10,
+    "limit": 10,
+    "page": 1,
+    "result": [
+      {
+        "item": 1,
+        "numeroPedido": 24033736,
+        "emisionPedido": "04/15/2024",
+        "numeroOrdenDespacho": 24042441,
+        "emisionOrdenDespacho": "04/18/2024",
+        "canal": "NACIONAL",
+        "cliente": "20600890485 - MULTIPLASTIC EL LOBO E.I.R.L.",
+        "volumen": 7,
+        "volumenMedida": "m3",
+        "bultos": 2,
+        "peso": 0.5,
+        "pesoMedida": "Tn",
+        "monto": 40000,
+        "ubigeo": "Lima-Lima-Cercado de Lima",
+        "direccionEntrega": "Direccion ABC",
+        "grupo": "GRUPO 01",
+        "numeroGuiaRemisionRemitente": "GUI-00123",
+        "numeroOrdenTrabajo": "OT001",
+        "numeroGuiaRemisionTransportista": "GRT-001"
+      },
+      {
+        "item": 2,
+        "numeroPedido": 24041875,
+        "emisionPedido": "04/16/2024",
+        "numeroOrdenDespacho": 24042620,
+        "emisionOrdenDespacho": "04/18/2024",
+        "canal": "RETAIL",
+        "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+        "volumen": 10,
+        "volumenMedida": "m3",
+        "bultos": 7,
+        "peso": 1.5,
+        "pesoMedida": "Tn",
+        "monto": 2308.22,
+        "ubigeo": "Lima-Lima-Breña",
+        "direccionEntrega": "Direccion YZ",
+        "horaCita": "09:00 AM",
+        "observacion": "SODIMAC - BREÑA",
+        "grupo": "GRUPO 01",
+        "numeroGuiaRemisionRemitente": "GUI-00124",
+        "numeroOrdenTrabajo": "OT001",
+        "numeroGuiaRemisionTransportista": "GRT-001"
+      },
+      {
+        "item": 3,
+        "numeroPedido": 24041876,
+        "emisionPedido": "04/16/2024",
+        "numeroOrdenDespacho": 24042621,
+        "emisionOrdenDespacho": "04/18/2024",
+        "canal": "RETAIL",
+        "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+        "volumen": 29,
+        "volumenMedida": "m3",
+        "bultos": 10,
+        "peso": 5.5,
+        "pesoMedida": "Tn",
+        "monto": 4087.48,
+        "ubigeo": "Lima-Lima-Rimac",
+        "direccionEntrega": "Direccion DEF",
+        "observacion": "SODIMAC - RIMAC",
+        "grupo": "GRUPO 01",
+        "numeroGuiaRemisionRemitente": "GUI-00125",
+        "numeroOrdenTrabajo": "OT001",
+        "numeroGuiaRemisionTransportista": "GRT-001"
+      },
+      {
+        "item": 4,
+        "numeroPedido": 24041877,
+        "emisionPedido": "04/16/2024",
+        "numeroOrdenDespacho": 24042622,
+        "emisionOrdenDespacho": "04/18/2024",
+        "canal": "RETAIL",
+        "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+        "volumen": 5,
+        "volumenMedida": "m3",
+        "bultos": 5,
+        "peso": 0.8,
+        "pesoMedida": "Tn",
+        "monto": 1308.22,
+        "ubigeo": "Lima-Lima-San Miguel",
+        "direccionEntrega": "Direccion YZ",
+        "horaCita": "11:00 AM",
+        "observacion": "SODIMAC - SAN MIGUEL",
+        "grupo": "GRUPO 01",
+        "numeroGuiaRemisionRemitente": "GUI-00124",
+        "numeroOrdenTrabajo": "OT001",
+        "numeroGuiaRemisionTransportista": "GRT-001"
+      },
+      {
+        "item": 5,
+        "numeroPedido": 24041878,
+        "emisionPedido": "04/15/2024",
+        "numeroOrdenDespacho": 24042623,
+        "emisionOrdenDespacho": "04/17/2024",
+        "canal": "NACIONAL",
+        "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+        "volumen": 15,
+        "volumenMedida": "m3",
+        "bultos": 9,
+        "peso": 5,
+        "pesoMedida": "Tn",
+        "monto": 1567.97333333333,
+        "ubigeo": "Lima-Lima-Cercado de Lima",
+        "direccionEntrega": "Direccion ABC"
+      },
+      {
+        "item": 6,
+        "numeroPedido": 24041879,
+        "emisionPedido": "04/14/2024",
+        "numeroOrdenDespacho": 24042624,
+        "emisionOrdenDespacho": "04/16/2024",
+        "canal": "RETAIL",
+        "cliente": "20600890485 - MULTIPLASTIC EL LOBO E.I.R.L.",
+        "volumen": 2,
+        "volumenMedida": "m3",
+        "bultos": 8,
+        "peso": 2.6,
+        "pesoMedida": "Tn",
+        "monto": 2500,
+        "ubigeo": "Lima-Lima-Breña",
+        "direccionEntrega": "Direccion YZ"
+      },
+      {
+        "item": 7,
+        "numeroPedido": 24041880,
+        "emisionPedido": "04/13/2024",
+        "numeroOrdenDespacho": 24042625,
+        "emisionOrdenDespacho": "04/15/2024",
+        "canal": "RETAIL",
+        "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+        "volumen": 8,
+        "volumenMedida": "m3",
+        "bultos": 11,
+        "peso": 3.8,
+        "pesoMedida": "Tn",
+        "monto": 2800,
+        "ubigeo": "Lima-Lima-Rimac",
+        "direccionEntrega": "Direccion DEF"
+      },
+      {
+        "item": 8,
+        "numeroPedido": 24041881,
+        "emisionPedido": "04/12/2024",
+        "numeroOrdenDespacho": 24042626,
+        "emisionOrdenDespacho": "04/14/2024",
+        "canal": "RETAIL",
+        "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+        "volumen": 9,
+        "volumenMedida": "m3",
+        "bultos": 6,
+        "peso": 5.9,
+        "pesoMedida": "Tn",
+        "monto": 3500,
+        "ubigeo": "Lima-Lima-San Miguel",
+        "direccionEntrega": "Direccion YZ",
+        "grupo": "GRUPO 02",
+        "numeroGuiaRemisionRemitente": "GUI-00126"
+      },
+      {
+        "item": 9,
+        "numeroPedido": 24041882,
+        "emisionPedido": "04/11/2024",
+        "numeroOrdenDespacho": 24042627,
+        "emisionOrdenDespacho": "04/13/2024",
+        "canal": "NACIONAL",
+        "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+        "volumen": 10,
+        "volumenMedida": "m3",
+        "bultos": 9,
+        "peso": 4,
+        "pesoMedida": "Tn",
+        "monto": 3700,
+        "ubigeo": "Lima-Lima-Cercado de Lima",
+        "direccionEntrega": "Direccion ABC",
+        "grupo": "GRUPO 02",
+        "numeroGuiaRemisionRemitente": "GUI-00126"
+      },
+      {
+        "item": 10,
+        "numeroPedido": 24041883,
+        "emisionPedido": "04/10/2024",
+        "numeroOrdenDespacho": 24042628,
+        "emisionOrdenDespacho": "04/12/2024",
+        "canal": "RETAIL",
+        "cliente": "20600890485 - MULTIPLASTIC EL LOBO E.I.R.L.",
+        "volumen": 9,
+        "volumenMedida": "m3",
+        "bultos": 8,
+        "peso": 6,
+        "pesoMedida": "Tn",
+        "monto": 4392.81066666667,
+        "ubigeo": "Lima-Lima-Breña",
+        "direccionEntrega": "Direccion YZ"
+      },
+      {
+        "item": 11,
+        "numeroPedido": 24041884,
+        "emisionPedido": "04/09/2024",
+        "numeroOrdenDespacho": 24042629,
+        "emisionOrdenDespacho": "04/11/2024",
+        "canal": "RETAIL",
+        "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+        "volumen": 7,
+        "volumenMedida": "m3",
+        "bultos": 7,
+        "peso": 3.2,
+        "pesoMedida": "Tn",
+        "monto": 4919.216,
+        "ubigeo": "Lima-Lima-Rimac",
+        "direccionEntrega": "Direccion DEF"
+      },
+      {
+        "item": 12,
+        "numeroPedido": 24041885,
+        "emisionPedido": "04/08/2024",
+        "numeroOrdenDespacho": 24042630,
+        "emisionOrdenDespacho": "04/10/2024",
+        "canal": "RETAIL",
+        "cliente": "20600890485 - MULTIPLASTIC EL LOBO E.I.R.L.",
+        "volumen": 30,
+        "volumenMedida": "m3",
+        "bultos": 6,
+        "peso": 0.95,
+        "pesoMedida": "Tn",
+        "monto": 5445.62133333334,
+        "ubigeo": "Lima-Lima-San Miguel",
+        "direccionEntrega": "Direccion YZ",
+        "grupo": "GRUPO 03"
+      },
+      {
+        "item": 13,
+        "numeroPedido": 24041886,
+        "emisionPedido": "04/07/2024",
+        "numeroOrdenDespacho": 24042631,
+        "emisionOrdenDespacho": "04/09/2024",
+        "canal": "NACIONAL",
+        "cliente": "20600890485 - MULTIPLASTIC EL LOBO E.I.R.L.",
+        "volumen": 6,
+        "volumenMedida": "m3",
+        "bultos": 5,
+        "peso": 0.5,
+        "pesoMedida": "Tn",
+        "monto": 5972.02666666667,
+        "ubigeo": "Lima-Lima-Cercado de Lima",
+        "direccionEntrega": "Direccion YZ",
+        "grupo": "GRUPO 03"
+      },
+      {
+        "item": 14,
+        "numeroPedido": 24041887,
+        "emisionPedido": "04/06/2024",
+        "numeroOrdenDespacho": 24042632,
+        "emisionOrdenDespacho": "04/08/2024",
+        "canal": "RETAIL",
+        "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+        "volumen": 11,
+        "volumenMedida": "m3",
+        "bultos": 4,
+        "peso": 0.75,
+        "pesoMedida": "Tn",
+        "monto": 6498.43200000001,
+        "ubigeo": "Lima-Lima-Breña",
+        "direccionEntrega": "Direccion DEF"
+      },
+      {
+        "item": 15,
+        "numeroPedido": 24041888,
+        "emisionPedido": "04/05/2024",
+        "numeroOrdenDespacho": 24042633,
+        "emisionOrdenDespacho": "04/07/2024",
+        "canal": "RETAIL",
+        "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+        "volumen": 25,
+        "volumenMedida": "m3",
+        "bultos": 3,
+        "peso": 2.5,
+        "pesoMedida": "Tn",
+        "monto": 16648.04,
+        "ubigeo": "Lima-Lima-Rimac",
+        "direccionEntrega": "Direccion YZ",
+        "grupo": "GRUPO 04"
+      }
+    ]
+  },
+  "rutas": [
+    {
+      "codigo": "RUTA01",
+      "sede": "ATE",
+      "descripcion": "ATE / CERCADO-BREÑA-RIMAC / 15",
+      "volumenMinimo": 1,
+      "volumenMaximo": 15,
+      "monto": 300
+    },
+    {
+      "codigo": "RUTA02",
+      "sede": "ATE",
+      "descripcion": "ATE / CERCADO-BREÑA-RIMAC / 50",
+      "volumenMinimo": 1,
+      "volumenMaximo": 50,
+      "monto": 350
+    },
+    {
+      "codigo": "RUTA03",
+      "sede": "ATE",
+      "descripcion": "ATE / CERCADO-BREÑA-RIMAC / 70",
+      "volumenMinimo": 1,
+      "volumenMaximo": 70,
+      "monto": 450
+    },
+    {
+      "codigo": "RUTA04",
+      "sede": "LURIN",
+      "descripcion": "LURIN / CERCADO-BREÑA-RIMAC / 15",
+      "volumenMinimo": 1,
+      "volumenMaximo": 15,
+      "monto": 500
+    },
+    {
+      "codigo": "RUTA05",
+      "sede": "LURIN",
+      "descripcion": "LURIN / CERCADO-BREÑA-RIMAC / 50",
+      "volumenMinimo": 16,
+      "volumenMaximo": 50,
+      "monto": 550
+    },
+    {
+      "codigo": "RUTA06",
+      "sede": "LURIN",
+      "descripcion": "LURIN / CERCADO-BREÑA-RIMAC / 70",
+      "volumenMinimo": 51,
+      "volumenMaximo": 70,
+      "monto": 600
+    },
+    {
+      "codigo": "RUTA07",
+      "sede": "ATE",
+      "descripcion": "ATE / SAN MIGUEL-PUEBLO LIBRE / 15",
+      "volumenMinimo": 1,
+      "volumenMaximo": 15,
+      "monto": 320
+    },
+    {
+      "codigo": "RUTA08",
+      "sede": "ATE",
+      "descripcion": "ATE / SAN MIGUEL-PUEBLO LIBRE / 50",
+      "volumenMinimo": 16,
+      "volumenMaximo": 50,
+      "monto": 370
+    }
+  ],
+  "rutaDistritos": [
+    {
+      "codigoRuta": "RUTA01",
+      "distrito": "CERCADO DE LIMA"
+    },
+    {
+      "codigoRuta": "RUTA01",
+      "distrito": "BREÑA"
+    },
+    {
+      "codigoRuta": "RUTA01",
+      "distrito": "RIMAC"
+    },
+    {
+      "codigoRuta": "RUTA02",
+      "distrito": "CERCADO DE LIMA"
+    },
+    {
+      "codigoRuta": "RUTA02",
+      "distrito": "BREÑA"
+    },
+    {
+      "codigoRuta": "RUTA02",
+      "distrito": "RIMAC"
+    },
+    {
+      "codigoRuta": "RUTA07",
+      "distrito": "SAN MIGUEL"
+    },
+    {
+      "codigoRuta": "RUTA07",
+      "distrito": "PUEBLO LIBRE"
+    },
+    {
+      "codigoRuta": "RUTA08",
+      "distrito": "SAN MIGUEL"
+    },
+    {
+      "codigoRuta": "RUTA08",
+      "distrito": "PUEBLO LIBRE"
+    }
+  ],
+  "distanciaDistritos": [
+    {
+      "sede": "ATE",
+      "distrito": "CERCADO DE LIMA",
+      "kilometros": 10
+    },
+    {
+      "sede": "ATE",
+      "distrito": "BREÑA",
+      "kilometros": 11
+    },
+    {
+      "sede": "ATE",
+      "distrito": "RIMAC",
+      "kilometros": 13
+    },
+    {
+      "sede": "LURIN",
+      "distrito": "CERCADO DE LIMA",
+      "kilometros": 20
+    },
+    {
+      "sede": "LURIN",
+      "distrito": "BREÑA",
+      "kilometros": 21
+    },
+    {
+      "sede": "LURIN",
+      "distrito": "RIMAC",
+      "kilometros": 23
+    },
+    {
+      "sede": "ATE",
+      "distrito": "SAN MIGUEL",
+      "kilometros": 18
+    },
+    {
+      "sede": "ATE",
+      "distrito": "PUEBLO LIBRE",
+      "kilometros": 17
+    }
+  ],
+  "vehiculos": [
+    {
+      "id": 1,
+      "vehiculo": "D6V-779",
+      "chofer": "Pedro Muñoz",
+      "licencia": "Q-42429267",
+      "estado": "ACTIVO",
+      "propietario": "DECAPOLIS",
+      "sede": "ATE",
+      "volumenMaximo": 15,
+      "tipoVolumen": "m3"
+    },
+    {
+      "id": 2,
+      "vehiculo": "BVK-879",
+      "chofer": "Aldo Acedo",
+      "licencia": "Q-46123032",
+      "estado": "ACTIVO",
+      "propietario": "DECAPOLIS",
+      "sede": "ATE",
+      "volumenMaximo": 14,
+      "tipoVolumen": "m3"
+    },
+    {
+      "id": 3,
+      "vehiculo": "B40-890",
+      "chofer": "Victor Ramirez",
+      "licencia": "Q-41705390",
+      "estado": "ACTIVO",
+      "propietario": "DECAPOLIS",
+      "sede": "ATE",
+      "volumenMaximo": 50,
+      "tipoVolumen": "m3"
+    },
+    {
+      "id": 4,
+      "vehiculo": "AHN-829",
+      "chofer": "José Celis",
+      "licencia": "Q-46400848",
+      "estado": "INACTIVO",
+      "motivo": "Mantenimiento",
+      "propietario": "DECAPOLIS",
+      "sede": "ATE",
+      "volumenMaximo": 55,
+      "tipoVolumen": "m3"
+    },
+    {
+      "id": 5,
+      "vehiculo": "ARF-907",
+      "chofer": "Saul Avila",
+      "licencia": "Q-41675675",
+      "estado": "ACTIVO",
+      "propietario": "DECAPOLIS",
+      "sede": "LURIN",
+      "volumenMaximo": 70,
+      "tipoVolumen": "m3"
+    }
+  ],
+  "grupos": {
+    "totalPages": 10,
+    "limit": 10,
+    "page": 1,
+    "result": [
+      {
+        "name": "GRUPO 1",
+        "sede": "ATE",
+        "vehiculo": "B40-890",
+        "ruta": "RUTA 08",
+        "ordenesDespacho": [
+          {
+            "item": 1,
+            "numeroPedido": 24033736,
+            "emisionPedido": "04/15/2024",
+            "numeroOrdenDespacho": 24042441,
+            "emisionOrdenDespacho": "04/18/2024",
+            "canal": "NACIONAL",
+            "cliente": "20600890485 - MULTIPLASTIC EL LOBO E.I.R.L.",
+            "volumen": 7,
+            "volumenMedida": "m3",
+            "bultos": 2,
+            "peso": 0.5,
+            "pesoMedida": "Tn",
+            "monto": 40000,
+            "ubigeo": "Lima-Lima-Cercado de Lima",
+            "direccionEntrega": "Direccion ABC",
+            "grupo": "GRUPO 01",
+            "numeroGuiaRemisionRemitente": "GUI-00123",
+            "numeroOrdenTrabajo": "OT001",
+            "numeroGuiaRemisionTransportista": "GRT-001"
+          },
+          {
+            "item": 2,
+            "numeroPedido": 24041875,
+            "emisionPedido": "04/16/2024",
+            "numeroOrdenDespacho": 24042620,
+            "emisionOrdenDespacho": "04/18/2024",
+            "canal": "RETAIL",
+            "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+            "volumen": 10,
+            "volumenMedida": "m3",
+            "bultos": 7,
+            "peso": 1.5,
+            "pesoMedida": "Tn",
+            "monto": 2308.22,
+            "ubigeo": "Lima-Lima-Breña",
+            "direccionEntrega": "Direccion YZ",
+            "horaCita": "09:00 AM",
+            "observacion": "SODIMAC - BREÑA",
+            "grupo": "GRUPO 01",
+            "numeroGuiaRemisionRemitente": "GUI-00124",
+            "numeroOrdenTrabajo": "OT001",
+            "numeroGuiaRemisionTransportista": "GRT-001"
+          },
+          {
+            "item": 3,
+            "numeroPedido": 24041876,
+            "emisionPedido": "04/16/2024",
+            "numeroOrdenDespacho": 24042621,
+            "emisionOrdenDespacho": "04/18/2024",
+            "canal": "RETAIL",
+            "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+            "volumen": 29,
+            "volumenMedida": "m3",
+            "bultos": 10,
+            "peso": 5.5,
+            "pesoMedida": "Tn",
+            "monto": 4087.48,
+            "ubigeo": "Lima-Lima-Rimac",
+            "direccionEntrega": "Direccion DEF",
+            "observacion": "SODIMAC - RIMAC",
+            "grupo": "GRUPO 01",
+            "numeroGuiaRemisionRemitente": "GUI-00125",
+            "numeroOrdenTrabajo": "OT001",
+            "numeroGuiaRemisionTransportista": "GRT-001"
+          },
+          {
+            "item": 4,
+            "numeroPedido": 24041877,
+            "emisionPedido": "04/16/2024",
+            "numeroOrdenDespacho": 24042622,
+            "emisionOrdenDespacho": "04/18/2024",
+            "canal": "RETAIL",
+            "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+            "volumen": 5,
+            "volumenMedida": "m3",
+            "bultos": 5,
+            "peso": 0.8,
+            "pesoMedida": "Tn",
+            "monto": 1308.22,
+            "ubigeo": "Lima-Lima-San Miguel",
+            "direccionEntrega": "Direccion YZ",
+            "horaCita": "11:00 AM",
+            "observacion": "SODIMAC - SAN MIGUEL",
+            "grupo": "GRUPO 01",
+            "numeroGuiaRemisionRemitente": "GUI-00124",
+            "numeroOrdenTrabajo": "OT001",
+            "numeroGuiaRemisionTransportista": "GRT-001"
+          }
+        ]
+      },
+      {
+        "name": "GRUPO 2",
+        "sede": "ATE",
+        "vehiculo": "B40-890",
+        "ruta": "RUTA 08",
+        "ordenesDespacho": [
+          {
+            "item": 8,
+            "numeroPedido": 24041881,
+            "emisionPedido": "04/12/2024",
+            "numeroOrdenDespacho": 24042626,
+            "emisionOrdenDespacho": "04/14/2024",
+            "canal": "RETAIL",
+            "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+            "volumen": 9,
+            "volumenMedida": "m3",
+            "bultos": 6,
+            "peso": 5.9,
+            "pesoMedida": "Tn",
+            "monto": 3500,
+            "ubigeo": "Lima-Lima-San Miguel",
+            "direccionEntrega": "Direccion YZ",
+            "grupo": "GRUPO 02",
+            "numeroGuiaRemisionRemitente": "GUI-00126"
+          },
+          {
+            "item": 9,
+            "numeroPedido": 24041882,
+            "emisionPedido": "04/11/2024",
+            "numeroOrdenDespacho": 24042627,
+            "emisionOrdenDespacho": "04/13/2024",
+            "canal": "NACIONAL",
+            "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+            "volumen": 10,
+            "volumenMedida": "m3",
+            "bultos": 9,
+            "peso": 4,
+            "pesoMedida": "Tn",
+            "monto": 3700,
+            "ubigeo": "Lima-Lima-Cercado de Lima",
+            "direccionEntrega": "Direccion ABC",
+            "grupo": "GRUPO 02",
+            "numeroGuiaRemisionRemitente": "GUI-00126"
+          }
+        ]
+      },
+      {
+        "name": "GRUPO 3",
+        "sede": "ATE",
+        "vehiculo": "",
+        "ruta": "RUTA 08",
+        "ordenesDespacho": [
+          {
+            "item": 12,
+            "numeroPedido": 24041885,
+            "emisionPedido": "04/08/2024",
+            "numeroOrdenDespacho": 24042630,
+            "emisionOrdenDespacho": "04/10/2024",
+            "canal": "RETAIL",
+            "cliente": "20600890485 - MULTIPLASTIC EL LOBO E.I.R.L.",
+            "volumen": 30,
+            "volumenMedida": "m3",
+            "bultos": 6,
+            "peso": 0.95,
+            "pesoMedida": "Tn",
+            "monto": 5445.62133333334,
+            "ubigeo": "Lima-Lima-San Miguel",
+            "direccionEntrega": "Direccion YZ",
+            "grupo": "GRUPO 03"
+          },
+          {
+            "item": 13,
+            "numeroPedido": 24041886,
+            "emisionPedido": "04/07/2024",
+            "numeroOrdenDespacho": 24042631,
+            "emisionOrdenDespacho": "04/09/2024",
+            "canal": "NACIONAL",
+            "cliente": "20600890485 - MULTIPLASTIC EL LOBO E.I.R.L.",
+            "volumen": 6,
+            "volumenMedida": "m3",
+            "bultos": 5,
+            "peso": 0.5,
+            "pesoMedida": "Tn",
+            "monto": 5972.02666666667,
+            "ubigeo": "Lima-Lima-Cercado de Lima",
+            "direccionEntrega": "Direccion YZ",
+            "grupo": "GRUPO 03"
+          }
+        ]
+      },
+      {
+        "name": "GRUPO 4",
+        "sede": "ATE",
+        "vehiculo": "B40-890",
+        "ruta": "RUTA 08",
+        "ordenesDespacho": [
+          {
+            "item": 15,
+            "numeroPedido": 24041888,
+            "emisionPedido": "04/05/2024",
+            "numeroOrdenDespacho": 24042633,
+            "emisionOrdenDespacho": "04/07/2024",
+            "canal": "RETAIL",
+            "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+            "volumen": 25,
+            "volumenMedida": "m3",
+            "bultos": 3,
+            "peso": 2.5,
+            "pesoMedida": "Tn",
+            "monto": 16648.04,
+            "ubigeo": "Lima-Lima-Rimac",
+            "direccionEntrega": "Direccion YZ",
+            "grupo": "GRUPO 04"
+          }
+        ]
+      }
+    ]
+  },
+  "ordenesDespachoOsis": [
+    {
+      "item": 1,
+      "numeroPedido": 24033736,
+      "emisionPedido": "04/15/2024",
+      "numeroOrden": 24042441,
+      "emisionOrden": "04/18/2024",
+      "canal": "NACIONAL",
+      "cliente": "20600890485 - MULTIPLASTIC EL LOBO E.I.R.L.",
+      "estado": "No importado"
+    },
+    {
+      "item": 2,
+      "numeroPedido": 24041875,
+      "emisionPedido": "04/16/2024",
+      "numeroOrden": 24042620,
+      "emisionOrden": "04/18/2024",
+      "canal": "RETAIL",
+      "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+      "estado": "No importado"
+    },
+    {
+      "item": 3,
+      "numeroPedido": 24041876,
+      "emisionPedido": "04/16/2024",
+      "numeroOrden": 24042621,
+      "emisionOrden": "04/18/2024",
+      "canal": "RETAIL",
+      "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+      "estado": "No importado"
+    },
+    {
+      "item": 4,
+      "numeroPedido": 24041877,
+      "emisionPedido": "04/16/2024",
+      "numeroOrden": 24042622,
+      "emisionOrden": "04/18/2024",
+      "canal": "RETAIL",
+      "cliente": "20112273922 - TIENDAS DEL MEJORAMIENTO DEL HOGAR S.A.",
+      "estado": "Importado"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+
+.react-datepicker-wrapper{
+  width: 100%;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+  @apply border-0 h-2;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+  @apply border-0 outline-none ring-blue-700;
+}

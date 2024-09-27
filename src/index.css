@@ -1,13 +1,439 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./components/widgets/TableComponent/_.css";
+@import "./components/widgets/PaginationComponent/_.scss";
+@import "./components/widgets/ModalComponent/_.css";
+@import "./components/distribucion/FormUnidadesTransporteComponent/_.css";
+
+:root {
+  --react-color-azulReyPlast: #0055b8;
+  --react-color-rojoReyPlast: #eb0029;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  font-family: "Segoe UI VSS (Regular)", "Segoe UI", "-apple-system",
+    BlinkMacSystemFont, Roboto, "Helvetica Neue", Helvetica, Ubuntu, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: black;
+}
+
+*,
+::before,
+::after {
+  border-style: solid;
+}
+
+* {
+  scrollbar-width: none;
+  scrollbar-color: #212529 #212529;
+  letter-spacing: 0.05em;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+input,
+select,
+option {
+  @apply outline-none px-4 py-3;
+}
+.z-1000 {
+  z-index: 1000;
+}
+.z-10000 {
+  z-index: 10000;
+}
+.border-1 {
+  border-width: 1px;
+}
+.react-btn-base {
+  @apply text-white bg-black py-2 px-4;
+}
+
+.text-color-azulReyPlast {
+  color: #0055b8;
+}
+.text-color-rojoReyPlast {
+  color: #eb0029;
+}
+.bg-color-rojoReyPlast {
+  background-color: #eb0029;
+}
+.page-container {
+  @apply px-2 sm:px-4 py-1 text-black !important;
+}
+
+.desktop {
+  @apply hidden md:block !important;
+}
+
+.mobile {
+  @apply block md:hidden !important;
+}
+
+.filter-group-container {
+  @apply my-4 flex justify-center w-full text-black !important;
+}
+
+.filter-button {
+  @apply py-2 px-4 border-2 border-blue-800 text-sm !important;
+}
+
+.filter-checkbox-container {
+  display: inline-block !important;
+}
+
+.filter-checkbox-label {
+  @apply py-1 px-4 border-2 border-blue-800 text-sm;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.filter-checkbox-container input[type="checkbox"] {
+  display: none;
+}
+
+.filter-checkbox-container
+  input[type="checkbox"]:checked
+  + .filter-checkbox-label {
+  @apply bg-blue-800;
+  color: white;
+}
+
+.form-container {
+  @apply p-4 grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-6 text-black;
+}
+.form-container-group-content {
+  @apply col-span-1 sm:col-span-3 text-black;
+}
+.form-container-group-content-label {
+  @apply block text-sm leading-6 text-gray-900;
+}
+
+.form-container-group-content-input {
+  @apply block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6;
+  @apply outline-none text-base ring-blue-700 text-black;
+}
+.form-container-group-content-input-mini {
+  @apply p-1 px-2;
+}
+.form-container-group-content-input-mui-select {
+  @apply py-0.5;
+}
+
+.form-container-group-content-input-error {
+  @apply ring-red-600 focus:ring-red-600;
+}
+.form-container-group-content-span-error {
+  @apply text-sm text-red-600 font-semibold;
+}
+
+.form-buttons-container {
+  @apply mt-6 flex items-center justify-end gap-x-6;
+}
+
+.form-buttons-btn {
+  @apply flex w-full col-span-1 justify-center rounded-md px-3 py-2 text-sm font-semibold shadow-sm items-center;
+}
+
+.form-buttons-btn-red {
+  @apply bg-red-600 text-white hover:bg-red-500;
+}
+
+.form-buttons-btn-disabled {
+  @apply opacity-40;
+}
+
+.form-buttons-btn-green {
+  background-color: #10c314;
+}
+
+.form-buttons-btn-green:hover {
+  background: #51d954;
+  border: 1px solid #51d954;
+  color: #fff;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pagination button {
+  background-color: #bbbbbb;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: gray;
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination button.active {
+  background-color: black;
+}
+
+.form-buttons-btn-white {
+  @apply bg-white text-gray-900 ring-1 ring-inset ring-gray-400 hover:bg-gray-200;
+}
+
+.form-buttons-container-btncancel {
+  @apply text-sm font-semibold leading-6 text-gray-900;
+}
+.form-buttons-container-btnaccept {
+  @apply rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600;
+}
+
+.form-buttons-container-btnaccept {
+  @apply rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600;
+  background-color: #10c314;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+#btnSearch:disabled,
+.form-buttons-container-btnaccept:disabled {
+  @apply bg-gray-400;
+}
+
+.loader-react {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.react-datepicker-popper {
+  z-index: 100 !important;
+}
+
+.form-details-content-group {
+  @apply flex items-center md:text-sm 2xl:text-base;
+}
+
+.page-container-header-page {
+  @apply w-full flex flex-wrap space-y-4 lg:space-y-0 lg:flex lg:flex-nowrap items-center mb-2; /*flex flex-wrap my-0 items-center space-y-2 md:space-y-0*/
+}
+
+.page-container-header-page-title-content {
+  @apply w-full lg:w-1/2;
+}
+
+.page-container-header-page-two-group {
+  @apply w-full lg:w-1/2 flex flex-wrap sm:flex-nowrap space-y-2 sm:space-y-0 col-auto items-center space-x-3 justify-end; /*w-full md:w-1/3 flex justify-end space-x-4*/
+}
+
+.page-container-header-page-two-group-item {
+  @apply w-full xs:w-auto flex flex-row items-center space-x-3 justify-end;
+}
+.page-container-header-page-three-group-item {
+  @apply w-auto flex flex-row items-center space-x-3 justify-end;
+}
+
+.page-container-header-page .input-filter-fecha {
+  @apply w-32;
+}
+
+.page-container-header-page .btn-base-black {
+  @apply w-48 bg-black text-white py-2;
+}
+
+.page-container-header-page .btn-icons {
+  @apply flex justify-center space-x-2 items-center;
+}
+
+.grid-cols-13 {
+  grid-template-columns: repeat(13, minmax(0, 1fr));
+}
+.grid-cols-14 {
+  grid-template-columns: repeat(14, minmax(0, 1fr));
+}
+.grid-cols-15 {
+  grid-template-columns: repeat(15, minmax(0, 1fr));
+}
+.grid-cols-16 {
+  grid-template-columns: repeat(16, minmax(0, 1fr));
+}
+.grid-cols-17 {
+  grid-template-columns: repeat(17, minmax(0, 1fr));
+}
+.grid-cols-18 {
+  grid-template-columns: repeat(18, minmax(0, 1fr));
+}
+
+.filter-content {
+  height: 75vh;
+  overflow-y: auto;
+}
+
+.llenado-ot .css-1bn53lx {
+  padding: 0 !important;
+  border-radius: 0px !important;
+}
+
+.llenado-ot .css-1nvf7g0 {
+  margin-left: 0 !important;
+  scale: 0.8 !important;
+  padding: 0.1em !important;
+}
+
+.llenado-ot .css-1uvydh2 {
+  padding: 0.25em !important;
+  padding-right: 0 !important;
+  border-radius: 0px !important;
+  font-size: 14px !important;
+  text-align: center !important;
+}
+
+.tw-tooltip {
+  @apply invisible absolute;
+}
+
+.tw-has-tooltip:hover .tw-tooltip {
+  @apply visible z-50;
+}
+
+/* preorden */
+
+.Mycalendar {
+  margin: 20px 0px;
+}
+.Mycalendar__header {
+  display: flex;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+.Mycalendar__header .paddingWidth {
+  width: 120px;
+}
+.MyCalendar__header__list {
+  width: calc(100% - 120px);
+}
+.MyCalendar__header__list ul {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  border-right: solid 1px #cdcdcd;
+  border-top: solid 1px #cdcdcd;
+  border-bottom: solid 1px #cdcdcd;
+  overflow: hidden;
+  border-radius: 5px;
+  background: white;
+}
+.MyCalendar__header__list ul li {
+  flex: 1;
+  border-left: solid 1px #cdcdcd;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  color: #979797;
+}
+.Mycalendar__item {
+  display: flex;
+}
+.Mycalendar__item .paddingWidth {
+  width: 120px;
+}
+.Mycalendar__item .viajes {
+  width: calc(100% - 120px);
+}
+.Mycalendar__item .viajes {
+  width: calc(100% - 120px);
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+}
+.viajeItem {
+  background: #f07878;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+.viajeItem > p {
+  color: white;
+}
+.Mycalendar__item .viajes .empty {
+  height: 100%;
+  width: 100%;
+}
+.selectVehicle {
+  border: solid 1px #a1a1a1;
+  text-align: center;
+  padding: 6px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.selectVehicle.status-vacio {
+  color: #eb0029;
+}
+.selectVehicle.status-vacio:hover {
+  background: #eb0029;
+  color: white;
+}
+.Mycalendar__item {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 7px #cdcdcd;
+}
+.Mymodal__row {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.Mymodal__input {
+  width: 100%;
+  z-index: 1000;
+}
+.Mymodal__input input {
+  border: solid 1px rgb(229, 231, 235);
+  width: 100%;
+  display: block;
+  text-align: left !important;
+  padding: 12px 10px !important;
+}
+.Mymodal__input .Mymodal__input-error{
+  border: solid 1px red;
+}
+.Mymodal__input.input-3 {
+  width: calc(33.33% - 10px);
+}
+.Mymodal__input.input--clientes {
+  width: calc(70% - 10px);
+}
+.Mymodal__input.input--cita {
+  width: calc(15% - 10px);
+}
+.Mymodal__input.input--cita .btnAdd {
+  width: 100%;
+  padding: 10px;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+.Mymodal__centerident {
+  border: dashed 1px #bbbbbb;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+.Mymodal__item {
+  display: flex;
+  justify-content: space-between;
 }
