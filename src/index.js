@@ -24,9 +24,6 @@ const router = createBrowserRouter(routesPages);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const rutas = localStorage.getItem("MENUS_CODIFICADO");
-const listaModulos = JSON.parse(window.atob(rutas));
-
 const persistor = persistStore(store);
 
 root.render(
